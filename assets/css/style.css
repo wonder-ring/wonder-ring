@@ -1062,6 +1062,7 @@ h6 {
 p {
   line-height: 1.75;
   margin-bottom: 15px;
+  color: #000000; /* Lighter shade */
 }
 
 h1 {
@@ -4751,10 +4752,6 @@ input[type=radio] {
 .testimonial__meta.slick-current {
   opacity: 1;
 }
-.testimonial__meta.slick-current .testimonial__thmb {
-  border: 2px solid #21cdc0;
-  background-color: #ffffff;
-}
 
 .testimonial__meta-title {
   font-size: 16px;
@@ -4823,37 +4820,7 @@ input[type=radio] {
   display: flex;
   align-items: center;
 }
-.testimonials-layout2 .testimonial__meta .testimonial__thmb,
-.testimonials-layout3 .testimonial__meta .testimonial__thmb {
-  position: relative;
-  width: 65px !important;
-  height: 65px;
-  padding: 6px;
-  margin-bottom: 0;
-  margin-right: 15px;
-}
-.testimonials-layout2 .testimonial__meta .testimonial__thmb:before,
-.testimonials-layout3 .testimonial__meta .testimonial__thmb:before {
-  font-family: icomoon;
-  content: "\e95c";
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  font-size: 12px;
-  opacity: 0;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50%;
-  text-align: center;
-  color: #21cdc0;
-  background-color: #ffffff;
-  transition: all 0.4s ease;
-}
-.testimonials-layout2 .testimonial__meta.slick-current .testimonial__thmb:before,
-.testimonials-layout3 .testimonial__meta.slick-current .testimonial__thmb:before {
-  opacity: 1;
-}
+
 
 .testimonials-layout3 {
   padding-bottom: 290px;
@@ -4925,13 +4892,6 @@ input[type=radio] {
     height: 40px;
     padding: 3px;
     margin-right: 7px;
-  }
-  .testimonials-layout2 .testimonial__meta .testimonial__thmb:before,
-  .testimonials-layout3 .testimonial__meta .testimonial__thmb:before {
-    font-size: 9px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
   }
 }
 /*---------------------------
